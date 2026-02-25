@@ -25,6 +25,31 @@ int main() {
       printf("esquerda\n");
     }
     printf("\n");
+
+    // Implementação de Movimentação do cavalo
+    printf("Irei mover meu cavalo\n");
+    // While
+    int movimentocompleto = 1 ;
+    while (movimentocompleto--) {
+      for (int i = 0; i < 2; i++) {
+        printf("Cima\n");
+      }
+      printf("esquerda\n");
+    }
+   
+    
+    // Do while
+    int i = 0;
+    printf("Irei Mover meu cavalo\n");
+    do // vai ser executado
+    {
+      printf("Baixo\n");
+      i++;
+    } while ( i < 2); //enquanto condição for verdadeira
+    printf("direita\n");
+    
+    
+
     printf("--------------------------\n");    
 
 
